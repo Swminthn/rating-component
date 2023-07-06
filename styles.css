@@ -1,0 +1,160 @@
+@font-face {
+    font-family: font1;
+    src: url(./Assets/Overpass/Overpass-VariableFont_wght.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+
+
+
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+    font-family: font1;
+
+
+
+
+
+}
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    min-width: 400px;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 25px;
+    margin: auto;
+    background-color: hsl(213, 19%, 18%);
+
+
+
+
+}
+
+.star {
+    position: absolute;
+    background-color: hsl(130, 12%, 13%);
+    padding: 15px;
+    margin: auto;
+
+    border-radius: 50%;
+
+}
+
+h1 {
+    position: relative;
+    padding-top: 50px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.star1,
+.star2,
+.star3,
+.star4,
+.star5 {
+    background-color: hsl(130, 12%, 13%);
+    padding: 15px;
+    border-radius: 50%;
+    margin: auto;
+    width: 50px;
+    height: auto;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+}
+
+.star1:hover,
+.star2:hover,
+.star3:hover,
+.star4:hover,
+.star5:hover {
+    cursor: pointer;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+
+}
+
+.star1:visited,
+.star2:visited,
+.star3:visited,
+.star4:visited,
+.star5:visited {
+    background-color: #fff;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    color: hsl(25, 97%, 53%);
+    font-size: 1rem;
+    letter-spacing: .1em;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+button:hover {
+    box-shadow: rgb(51, 34, 31) 0px 20px 30px -10px;
+}
+
+button:active {
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+}
+
+.img-center{
+    display: block;
+    margin: auto;
+
+}
+
+.selected-stars{
+    display: flex;
+    justify-content: center;
+    padding:10px;
+    background-color:  hsl(130, 12%, 13%);
+    width: auto;
+    border-radius: 10px;
+    margin: 10px;
+    color:hsl(25, 97%, 53%);
+
+}
+.thankyou{
+    padding: unset; 
+    text-align: center;
+}
+
+#thanku{
+    display: none;
+}
